@@ -1,7 +1,7 @@
 price = float(input("Enter the item price: "))
 
-if price >= 10000:
-    discount = price * 0.05
+if price >= 100000:
+    discount = price * 0.10
     total = price - discount
 else:
     total = price
