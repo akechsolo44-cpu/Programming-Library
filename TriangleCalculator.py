@@ -1,6 +1,6 @@
-x = float(input("Enter side 1: "))
-y = float(input("Enter side 2: "))
-z = float(input("Enter side 3: "))
+x = float(input("Enter side x: "))
+y = float(input("Enter side y: "))
+z = float(input("Enter side z: "))
 
 if x == y == z:
     print("Equilateral triangle")
